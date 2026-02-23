@@ -1,0 +1,60 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-specific-pricing-for-each-weight-option-on-the-shop-page-red-chilli-mirch-powder-at-35-for-100g-70-for-200g-175-for-500g-turmeric-haldi-powder-at-35-for-100g-70-for-200g-175-for-500g-coriander-dhaniya-powder-at-25-for-100g-50-for-200g-125-for-500g-display-the-price-prominently-next-to-or-below-each-size-selection-button",
+      "featureTitle": "Add specific pricing for each weight option on the Shop page: Red Chilli (Mirch Powder) at ₹35 for 100g, ₹70 for 200g, ₹175 for 500g; Turmeric (Haldi Powder) at ₹35 for 100g, ₹70 for 200g, ₹175 for 500g; Coriander (Dhaniya Powder) at ₹25 for 100g, ₹50 for 200g, ₹125 for 500g. Display the price prominently next to or below each size selection button.",
+      "files": [
+        "frontend/src/pages/Shop.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-the-add-to-cart-button-on-each-product-card-with-a-buy-now-button-that-opens-a-modal-or-form-to-collect-customer-details-name-address-and-weight-selection-pre-filled-with-the-currently-selected-weight",
+      "featureTitle": "Replace the 'Add to Cart' button on each product card with a 'Buy Now' button that opens a modal or form to collect customer details: name, address, and weight selection (pre-filled with the currently selected weight).",
+      "files": [
+        "frontend/src/pages/Shop.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-connect-the-buy-now-form-submission-to-the-backend-order-storage-method-when-the-user-submits-the-form-with-their-details-send-the-order-data-product-name-selected-weight-price-customer-name-address-to-the-backend-and-display-a-success-confirmation-message",
+      "featureTitle": "Connect the 'Buy Now' form submission to the backend order storage method. When the user submits the form with their details, send the order data (product name, selected weight, price, customer name, address) to the backend and display a success confirmation message.",
+      "files": [
+        "frontend/src/hooks/useQueries.ts",
+        "frontend/src/pages/Shop.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

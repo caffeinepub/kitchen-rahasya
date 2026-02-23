@@ -1,0 +1,76 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-23T05:38:16.433Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 4,
+    "implemented": 3,
+    "items": [
+      {
+        "id": "REQ-11",
+        "summary": "Add specific pricing for each weight option on the Shop page: Red Chilli (Mirch Powder) at ₹35 for 100g, ₹70 for 200g, ₹175 for 500g; Turmeric (Haldi Powder) at ₹35 for 100g, ₹70 for 200g, ₹175 for 500g; Coriander (Dhaniya Powder) at ₹25 for 100g, ₹50 for 200g, ₹125 for 500g. Display the price prominently next to or below each size selection button.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Shop.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Shop.tsx"
+        ]
+      },
+      {
+        "id": "REQ-12",
+        "summary": "Replace the 'Add to Cart' button on each product card with a 'Buy Now' button that opens a modal or form to collect customer details: name, address, and weight selection (pre-filled with the currently selected weight).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Shop.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Shop.tsx"
+        ]
+      },
+      {
+        "id": "REQ-13",
+        "summary": "Create a Motoko backend method to store order details including product name, selected weight, price, customer name, and customer address. The method should accept these parameters and store them in a stable data structure that persists across canister upgrades.",
+        "status": "unknown",
+        "plannedFiles": [],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-14",
+        "summary": "Connect the 'Buy Now' form submission to the backend order storage method. When the user submits the form with their details, send the order data (product name, selected weight, price, customer name, address) to the backend and display a success confirmation message.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/hooks/useQueries.ts",
+          "frontend/src/pages/Shop.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/hooks/useQueries.ts",
+          "frontend/src/pages/Shop.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "backend/main.mo",
+    "backend/migration.mo",
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/App.tsx",
+    "frontend/src/backend.d.ts",
+    "frontend/src/backend.ts",
+    "frontend/src/declarations/backend.did.d.ts",
+    "frontend/src/declarations/backend.did.js",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/pages/Shop.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

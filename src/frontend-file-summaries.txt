@@ -1,0 +1,12 @@
+{
+  "frontend/src/index.css": "Global styles with Kitchen Rahasya brand color system (Deep Red, Golden Yellow, Forest Green) in OKLCH format for both light and dark modes, with custom fonts and animations.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Kitchen Rahasya brand colors, custom font families (Inter, Playfair Display, Poppins), warm shadows, and custom animations.",
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, React Query provider for backend state management, and Sonner toast notifications for user feedback across all routes.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation header with Kitchen Rahasya branding, desktop and mobile menus, and active route highlighting using brand colors.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand information, updated contact details (Phone: 7002443549, Address: Shrimadhopur, Sikar, Rajasthan), quick links, social media icons, and Caffeine.ai attribution.",
+  "frontend/src/pages/Home.tsx": "Home page featuring hero banner with generated image, brand messaging about traditional spices, feature cards highlighting natural ingredients and traditional methods, and call-to-action sections.",
+  "frontend/src/pages/Shop.tsx": "Shop page displaying three spice products with weight-based pricing (Red Chilli and Turmeric: ₹35/70/175, Coriander: ₹25/50/125), interactive size selection, prominent price display, and \"Buy Now\" button that opens a form dialog to collect customer name, address, and weight selection before submitting orders to the backend.",
+  "frontend/src/pages/AboutUs.tsx": "About Us page with soulful narrative about Kitchen Rahasya's traditional sil-batta grinding method, brand values, and cultural heritage story with emotional, trustworthy tone.",
+  "frontend/src/pages/ContactUs.tsx": "Contact page with updated contact information (Phone: 7002443549, Address: Shrimadhopur, Sikar, Rajasthan), business hours, and functional contact form with validation.",
+  "frontend/src/hooks/useQueries.ts": "React Query mutation hook for submitting orders to the backend, handling order creation with proper error handling and cache invalidation."
+}

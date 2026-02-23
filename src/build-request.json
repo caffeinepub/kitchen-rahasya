@@ -1,0 +1,108 @@
+{
+  "kind": "build_request",
+  "title": "Add price list with weight-based pricing for spice products",
+  "projectName": "Kitchen Rahasya",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Add specific pricing for each weight option on the Shop page: Red Chilli (Mirch Powder) at ₹35 for 100g, ₹70 for 200g, ₹175 for 500g; Turmeric (Haldi Powder) at ₹35 for 100g, ₹70 for 200g, ₹175 for 500g; Coriander (Dhaniya Powder) at ₹25 for 100g, ₹50 for 200g, ₹125 for 500g. Display the price prominently next to or below each size selection button.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6",
+          "msg-9"
+        ],
+        "quotes": [
+          "Create a detailed price list for 'Kitchen Rahasya' with these 3 products. Each product should have a dropdown to select weights (100g, 200g, 500g) with the following prices: 1. Mirch Powder (Red Chilli): 100gm: ₹35, 200gm: ₹70, 500gm: ₹175; 2. Haldi Powder (Turmeric): 100gm: ₹35, 200gm: ₹70, 500gm: ₹175; 3. Dhaniya Powder (Coriander): 100gm: ₹25, 200gm: ₹50, 500gm: ₹125"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Each product card displays the price for the currently selected weight",
+        "Red Chilli shows ₹35, ₹70, or ₹175 based on selected size",
+        "Turmeric shows ₹35, ₹70, or ₹175 based on selected size",
+        "Coriander shows ₹25, ₹50, or ₹125 based on selected size",
+        "Price updates immediately when user selects a different weight option"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Replace the 'Add to Cart' button on each product card with a 'Buy Now' button that opens a modal or form to collect customer details: name, address, and weight selection (pre-filled with the currently selected weight).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6",
+          "msg-9"
+        ],
+        "quotes": [
+          "Enable a 'Buy Now' button that captures the customer's name, address, and weight selection"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Each product card has a 'Buy Now' button instead of 'Add to Cart'",
+        "Clicking 'Buy Now' opens a form or modal",
+        "Form includes fields for customer name, address, and weight selection",
+        "Weight field is pre-filled with the currently selected weight from the product card",
+        "Form validates that all required fields are filled before submission"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Create a Motoko backend method to store order details including product name, selected weight, price, customer name, and customer address. The method should accept these parameters and store them in a stable data structure that persists across canister upgrades.",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-6",
+          "msg-9"
+        ],
+        "quotes": [
+          "Enable a 'Buy Now' button that captures the customer's name, address, and weight selection"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Backend has a method to create and store new orders",
+        "Order data structure includes: product name, weight, price, customer name, customer address, and timestamp",
+        "Orders are stored in stable storage to persist across upgrades",
+        "Method returns a success confirmation or order ID upon successful storage"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Connect the 'Buy Now' form submission to the backend order storage method. When the user submits the form with their details, send the order data (product name, selected weight, price, customer name, address) to the backend and display a success confirmation message.",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-6",
+          "msg-9"
+        ],
+        "quotes": [
+          "Enable a 'Buy Now' button that captures the customer's name, address, and weight selection"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Form submission triggers a call to the backend order storage method",
+        "All form data (product, weight, price, customer name, address) is sent to backend",
+        "User sees a success message after order is stored successfully",
+        "Form is cleared or modal is closed after successful submission",
+        "Error handling displays appropriate message if backend call fails"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not implement email functionality as it is not available on the current account",
+    "Store all order data in the backend using Motoko stable storage",
+    "Preserve existing size selection functionality on the Shop page",
+    "Maintain the Kitchen Rahasya brand aesthetic and color palette"
+  ],
+  "nonGoals": [
+    "Email notifications for orders",
+    "Admin dashboard or order management interface",
+    "Shopping cart functionality with multiple items",
+    "Payment gateway integration",
+    "User authentication for placing orders"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

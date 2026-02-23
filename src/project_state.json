@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Professional e-commerce website for 'Kitchen Rahasya', an Indian spice brand focusing on traditional, authentic spices with a premium, homely aesthetic",
+  "architectural_notes": [
+    "Brand name: Kitchen Rahasya (meaning 'Kitchen Secret' in Hindi)",
+    "Color palette: Deep Red, Golden Yellow, Forest Green",
+    "Design aesthetic: Clean, premium, homely feel rooted in Indian tradition",
+    "Brand story focuses on traditional grinding methods (sil-batta) preserving natural oils and aroma",
+    "Logo/packaging features woman using traditional grinding stone (sil-batta)",
+    "Contact details: Phone 7002443549, Address: Shrimadhopur, Sikar, Rajasthan",
+    "Product pricing: Red Chilli & Turmeric ₹350/kg base, Coriander ₹250/kg base",
+    "Email feature disabled - orders stored in Motoko backend instead of email notifications"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-home-page-with-a-hero-banner-showcasing-the-kitchen-rahasya-brand-the-hero-section-should-feature-a-prominent-tagline-about-authentic-traditional-indian-spices-and-include-a-call-to-action-button-leading-to-the-shop-page",
+      "title": "Create a Home page with a hero banner showcasing the Kitchen Rahasya brand. The hero section should feature a prominent tagline about authentic traditional Indian spices and include a call-to-action button leading to the Shop page.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-shop-page-that-displays-spice-products-including-turmeric-chilli-red-chilli-powder-and-coriander-each-product-should-have-an-image-name-and-basic-product-information-the-layout-should-be-clean-and-premium-reflecting-the-homely-feel-of-the-brand",
+      "title": "Create a Shop page that displays spice products including Turmeric, Chilli (Red Chilli powder), and Coriander. Each product should have an image, name, and basic product information. The layout should be clean and premium, reflecting the homely feel of the brand.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-us-page-with-a-soulful-narrative-about-kitchen-rahasya-the-content-should-explain-that-every-kitchen-has-a-secret-rahasya-and-kitchen-rahasya-s-secret-is-the-traditional-way-of-grinding-spices-using-sil-batta-that-preserves-natural-oils-and-aroma-mention-that-the-packaging-features-a-woman-using-a-traditional-grinding-stone-sil-batta-to-represent-the-brand-s-roots-the-tone-must-be-emotional-trustworthy-and-rooted-in-indian-culture",
+      "title": "Create an About Us page with a soulful narrative about Kitchen Rahasya. The content should explain that every kitchen has a secret (Rahasya), and Kitchen Rahasya's secret is the traditional way of grinding spices using sil-batta that preserves natural oils and aroma. Mention that the packaging features a woman using a traditional grinding stone (sil-batta) to represent the brand's roots. The tone must be emotional, trustworthy, and rooted in Indian culture.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-us-page-where-users-can-reach-out-to-kitchen-rahasya-include-a-contact-form-with-fields-for-name-email-and-message-along-with-any-relevant-contact-information-or-social-media-links",
+      "title": "Create a Contact Us page where users can reach out to Kitchen Rahasya. Include a contact form with fields for name, email, and message, along with any relevant contact information or social media links.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-consistent-navigation-system-across-all-pages-home-shop-about-us-contact-us-with-the-kitchen-rahasya-branding-the-navigation-should-be-clean-accessible-and-reflect-the-premium-aesthetic-of-the-brand",
+      "title": "Implement a consistent navigation system across all pages (Home, Shop, About Us, Contact Us) with the Kitchen Rahasya branding. The navigation should be clean, accessible, and reflect the premium aesthetic of the brand.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-comprehensive-visual-design-system-using-the-kitchen-rahasya-brand-color-palette-deep-red-golden-yellow-forest-green-with-a-clean-premium-and-homely-aesthetic-the-design-should-feel-authentic-and-rooted-in-traditional-indian-culture-while-maintaining-modern-e-commerce-standards",
+      "title": "Apply a comprehensive visual design system using the Kitchen Rahasya brand color palette (Deep Red, Golden Yellow, Forest Green) with a clean, premium, and homely aesthetic. The design should feel authentic and rooted in traditional Indian culture while maintaining modern e-commerce standards.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-hero-banner-image-as-a-static-asset-in-frontend-public-assets-generated-the-hero-banner-should-be-displayed-prominently-on-the-home-page",
+      "title": "Render generated hero banner image as a static asset in frontend/public/assets/generated. The hero banner should be displayed prominently on the Home page.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-size-selection-functionality-to-the-shop-page-products-red-chilli-turmeric-coriander-with-three-options-100g-200g-and-500g-each-product-card-must-display-these-size-options-with-interactive-selection-and-the-selected-size-should-be-clearly-indicated-to-the-user",
+      "title": "Add size selection functionality to the Shop page products (Red Chilli, Turmeric, Coriander) with three options: 100g, 200g, and 500g. Each product card must display these size options with interactive selection, and the selected size should be clearly indicated to the user.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-us-page-to-display-the-new-contact-information-phone-number-7002443549-and-address-shrimadhopur-sikar-rajasthan-replace-any-existing-contact-details-with-these-updated-values",
+      "title": "Update the Contact Us page to display the new contact information: Phone number 7002443549 and Address 'Shrimadhopur, Sikar, Rajasthan'. Replace any existing contact details with these updated values.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-component-to-display-the-new-contact-information-phone-number-7002443549-and-address-shrimadhopur-sikar-rajasthan-to-ensure-consistency-across-all-pages",
+      "title": "Update the Footer component to display the new contact information: Phone number 7002443549 and Address 'Shrimadhopur, Sikar, Rajasthan' to ensure consistency across all pages.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-specific-pricing-for-each-weight-option-on-the-shop-page-red-chilli-mirch-powder-at-35-for-100g-70-for-200g-175-for-500g-turmeric-haldi-powder-at-35-for-100g-70-for-200g-175-for-500g-coriander-dhaniya-powder-at-25-for-100g-50-for-200g-125-for-500g-display-the-price-prominently-next-to-or-below-each-size-selection-button",
+      "title": "Add specific pricing for each weight option on the Shop page: Red Chilli (Mirch Powder) at ₹35 for 100g, ₹70 for 200g, ₹175 for 500g; Turmeric (Haldi Powder) at ₹35 for 100g, ₹70 for 200g, ₹175 for 500g; Coriander (Dhaniya Powder) at ₹25 for 100g, ₹50 for 200g, ₹125 for 500g. Display the price prominently next to or below each size selection button.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-add-to-cart-button-on-each-product-card-with-a-buy-now-button-that-opens-a-modal-or-form-to-collect-customer-details-name-address-and-weight-selection-pre-filled-with-the-currently-selected-weight",
+      "title": "Replace the 'Add to Cart' button on each product card with a 'Buy Now' button that opens a modal or form to collect customer details: name, address, and weight selection (pre-filled with the currently selected weight).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-connect-the-buy-now-form-submission-to-the-backend-order-storage-method-when-the-user-submits-the-form-with-their-details-send-the-order-data-product-name-selected-weight-price-customer-name-address-to-the-backend-and-display-a-success-confirmation-message",
+      "title": "Connect the 'Buy Now' form submission to the backend order storage method. When the user submits the form with their details, send the order data (product name, selected weight, price, customer name, address) to the backend and display a success confirmation message.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with hero banner",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Shop page displaying spices (Turmeric, Chilli, Coriander)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "About Us section describing traditional grinding process and brand story",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Contact Us page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Add size options (100g, 200g, 500g) to shop products",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Update contact info: Phone 7002443549, Address: Shrimadhopur, Sikar, Rajasthan",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Add price list with weight dropdowns and pricing: Red Chilli (₹35/100g, ₹70/200g, ₹175/500g), Turmeric (₹35/100g, ₹70/200g, ₹175/500g), Coriander (₹25/100g, ₹50/200g, ₹125/500g)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add Buy Now button with customer form (name, address, weight selection) storing orders in backend",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Create a Motoko backend method to store order details including product name, selected weight, price, customer name, and customer address. The method should accept these parameters and store them in a stable data structure that persists across canister upgrades.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Kitchen Rahasya",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

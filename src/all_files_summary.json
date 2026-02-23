@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Main backend actor defining Order types and implementing order management functions (submitOrder, getOrderById, getAllOrders) with validation, storage in a Map, and auto-incrementing order IDs.",
+  "backend/migration.mo": "Migration module with a run function that handles actor upgrades, currently returning an empty actor state.",
+  "feature_evidence.json": "Feature evidence report documenting three implemented features: weight-based pricing display, Buy Now button with customer detail form, and backend order submission integration.",
+  "frontend-file-summaries.txt": "JSON summary of frontend files describing the Kitchen Rahasya spice shop application with brand styling, navigation, shop page with order forms, and backend integration hooks.",
+  "frontend/index.css": "Tailwind CSS configuration with Kitchen Rahasya brand color variables in OKLCH format for light and dark modes, including primary, secondary, accent, and UI component colors.",
+  "frontend/index.html": "HTML entry point for the Kitchen Rahasya application with viewport meta tag and root div for React mounting.",
+  "frontend/src/App.tsx": "Main React application component configuring TanStack Router with routes (Home, Shop, About, Contact), React Query client, and shared Layout with Navigation, Footer, and Toaster components.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying Kitchen Rahasya branding, contact information (phone: 7002443549, location: Shrimadhopur, Sikar, Rajasthan), quick links, social media icons, and Caffeine.ai attribution.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation header with Kitchen Rahasya logo, desktop and mobile menus, active route highlighting, and hamburger menu toggle for mobile devices.",
+  "frontend/src/hooks/useActor.ts": "React Query hook for managing backend actor instances with Internet Identity authentication, creating anonymous or authenticated actors and invalidating dependent queries on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides React context and hooks for Internet Identity authentication on ICP, managing login state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "Defines a React Query mutation hook for submitting orders to the backend actor, with automatic query invalidation on success.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom Kitchen Rahasya brand colors (deep red, golden yellow, forest green) defined as CSS variables for both light and dark modes.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the root App component.",
+  "frontend/src/pages/AboutUs.tsx": "About page component describing Kitchen Rahasya's story, traditional sil-batta grinding methods, and brand values with decorative icons and styled sections.",
+  "frontend/src/pages/ContactUs.tsx": "Contact page with a validated form (name, email, message) and contact information display, including simulated form submission with success feedback.",
+  "frontend/src/pages/Home.tsx": "Homepage component featuring a hero banner with call-to-action, and a features section highlighting natural ingredients, traditional methods, and craftsmanship.",
+  "frontend/src/pages/Shop.tsx": "Shop page component displaying three spice products (Red Chilli, Turmeric, Coriander) with size selection (100g/200g/500g), pricing, and a buy-now dialog that collects customer name and address before submitting orders via the useSubmitOrder hook.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration defining custom color scheme using OKLCH color space, custom font families (Inter, Playfair Display, Poppins), extended shadows, animations, and responsive container settings.",
+  "project_state.json": "Project state file documenting Kitchen Rahasya e-commerce site architecture, brand identity (traditional Indian spices), color palette, contact details, product pricing, and implemented features including Home, Shop, About, and Contact pages."
+}
